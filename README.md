@@ -15,6 +15,7 @@ Centre de mathématiques et de leurs applications (CMLA)/ ENS Paris-Saclay
 ## Versions ##
 
 Version 1.0,  released on 2019-10-16 : Original version.
+
 Version 1.01, released on 2020-10-12 : Fix requirements for the IPOL demo.
 
 ## License ##
