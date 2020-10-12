@@ -2,7 +2,7 @@
 
 ## Summary ##
 This repository contains programs for the evaluation of the reversibility error
-of interpolation methods. 
+of interpolation methods.
 It is part of an [IPOL publication](https://doi.org/10.5201/ipol.2019.277)
 
 ## Authors ##
@@ -12,9 +12,10 @@ It is part of an [IPOL publication](https://doi.org/10.5201/ipol.2019.277)
 Laboratoire d'Informatique Gaspard Monge (LIGM)/ Ecole des Ponts ParisTech
 Centre de mathématiques et de leurs applications (CMLA)/ ENS Paris-Saclay
 
-## Version ##
+## Versions ##
 
-Version 1.0, released on 2019-10-16
+Version 1.0,  released on 2019-10-16 : Original version.
+Version 1.01, released on 2020-10-12 : Fix requirements for the IPOL demo.
 
 ## License ##
 
@@ -95,7 +96,7 @@ and performs the crop of the image.
    <Usage>: ./crop x0 y0 xf yf in out
 
 Execution examples:
-  
+
   1.  Crop in a band of 20 pixels:
 
 	./crop 10 10 -10 -10 input.png output.png
@@ -145,7 +146,7 @@ Execution examples:
 
   2.  Clipped reversibility error with ratio 10%:
 
-       ./reversibility_error input1.tiff input2.tiff 1 -r 0.1 
+       ./reversibility_error input1.tiff input2.tiff 1 -r 0.1
 
 ## Usage of spectrum_clipping ##
 
@@ -214,7 +215,7 @@ In the src/ directory:
 * main_reversibility_error.c  : Main program for computing the reversibility error
 * main_spectrum_clipping.c    : Main program for computing the spectrum clipping
 * periodic_plus_smooth.[hc]   : Functions to compute the periodic plus smooth decomposition of an image
-* tpi.[hc]                    : Functions to perform trigonometric polynomial interpolation 
+* tpi.[hc]                    : Functions to perform trigonometric polynomial interpolation
 
 Additional files are provided in the external/ directory:
 
